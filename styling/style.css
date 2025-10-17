@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(225deg,#fcb5bd , #e65bd1 , #042036)
+}
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 25px 25px  0 ;
+    background-color: black;
+    width: 13vw;
+    height: 100vh;
+    margin-left: 0;
+    /* border: 3px solid black; */
+    opacity: 0.6;
+    z-index: 1;
+}
+#subjectsList{
+    z-index: 3;
+    font-size: 10px;
+    color: red;
+    
+}
+.menuLogo{
+    object-fit: contain;
+    width:  75%;
+    margin-top:1 ;
+    ;
+}
