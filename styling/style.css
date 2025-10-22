@@ -1,18 +1,22 @@
 body{
     margin: 0;
-    background-image: linear-gradient(225deg,#fcb5bd , #e65bd1 , #042036)
+    background-image: linear-gradient(225deg,#fcb5bd , #e65bd1 , #042036);
+    background-attachment: fixed;
 }
-.sideBar{
+#sideBar{
     border-radius: 0 25px 25px  0 ;
     background-color: black;
     width: 15vw;
     height: 100vh;
     opacity: 1;
+    position:fixed;
+    top: 0;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: 0;
+    margin-top: 0;
     /* border: 3px solid black; */
     z-index: 1;
 }
@@ -41,6 +45,7 @@ body{
     border-radius: 5px;
     transition: ease-in-out 400ms;
     flex-shrink: 0;
+    cursor: pointer;
     /* margin: 6px 0px 6px 0px;
     padding: ; */
 }
@@ -75,10 +80,24 @@ body{
     width: 100%;
     
 }
-.menuLogo{
+#menuLogo{
     position: relative;
     top : 0.5%;
     object-fit: contain;
     width:  60%;
     margin-top:1 ;    
 }
+
+
+#mainContainer{
+    position:relative;
+    top: 0;
+    left: -50%;
+    width: 40vw;
+    height: 100vh;
+    background-color: black;
+    text-decoration-color: white;
+}
+/* #mainTextCont{
+    
+} */
